@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+nav{
+    box-shadow: 1px 1px #f0f0f0;
+}
+
+.nav__menu {
+    display: flex;
+    padding: 16px 0px;
+}
+
+.nav__options {
+    display: flex;
+    border: 1px solid #f0f0f0;
+    border-radius: 25px;
+    padding: 6px 16px;
+}
+
+.icon__content{
+    width: 10%;
+}
+
+#dates {
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
