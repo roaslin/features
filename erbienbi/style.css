@@ -3,7 +3,7 @@ body {
 }
 
 nav{
-    box-shadow: 1px 1px #f0f0f0;
+    box-shadow: 0 10px 6px -6px #f0f0f0;
 }
 
 .nav__menu {
