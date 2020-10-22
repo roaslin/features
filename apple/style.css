@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+.menu {
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    align-items: center;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+}
+
+.updates__content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 12px solid white;
+}
+
+.card__footer {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card__footer div {
+    width: 50%;
+}
+
+.card__footer h3{
+    color: grey;
+}
+.card__links {
+    color: #2997ff;
+}
+.card a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.card__heading {
+    font-size: 3.2em;
+    margin-bottom: 0px;
+}
+
+.card__subheading {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+.card--white {
+    background: #f7f7f7;
+    color: black;
+}
+
+.bluelink {
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.bluelink:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    text-align: center;
+    width: 50%;
+}
